@@ -3,7 +3,7 @@ import { User, Building2 } from "lucide-react";
 
 const KanbanBoard = () => {
     return <> 
-        <div className="flex mx-4 my-2 items-center rounded-xl">          
+        <div className="flex mx-4 my-2 items-center rounded-xl p-4 ">          
             <img 
                 className="p-3 bg-gradient-to-r w-[55px] from-blue-600 to-purple-600 rounded-xl shadow-lg" 
                 src={KanbanIcon} 
