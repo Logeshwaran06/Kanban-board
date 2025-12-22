@@ -3,7 +3,7 @@ import { User, Building2 } from "lucide-react";
 
 const KanbanBoard = () => {
     return <> 
-        <div className="flex mx-4 my-2 items-center rounded-xl p-4 ">          
+        <div className="flex mx-4 items-center rounded-xl p-4 ">          
             <img 
                 className="p-3 bg-gradient-to-r w-[55px] from-blue-600 to-purple-600 rounded-xl shadow-lg" 
                 src={KanbanIcon} 
@@ -16,13 +16,14 @@ const KanbanBoard = () => {
 
             
         </div>
-        <div className="flex items-center gap-4 border-2 border-gray-300 p-4 w-[300px] ">
-            <div className="flex items-center gap-1">
+        <div className="flex items-center gap-8 border-2 bg-white border-none ml-4 rounded-lg p-2 w-[300px] h-12">
+            <div className="flex items-center gap-1 cursor-pointer hover:bg-gray-200 py-2 px-3 h-10 text-center">
                 <User className="text-blue-600" />
                 <span className="ml-1">Personal</span>
                 <div></div>                 {/* To update the task count */}
             </div>
-            <div className="flex items-center gap-1">
+            
+            <div className="flex items-center gap-1 cursor-pointer hover:bg-gray-200 py-2 h-10">
                 <Building2 className="text-blue-600" />
                 <span className="ml-1">Company</span>
                 <div></div>

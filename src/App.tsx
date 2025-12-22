@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className="m-0 b-0 bg-gray-200">
+      <div className="h-screen bg-gray-200">
         <KanbanBoard />
         <Column />
       </div>
