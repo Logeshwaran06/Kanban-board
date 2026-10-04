@@ -2,6 +2,7 @@ import { Circle, Clock, CircleCheck, PlusIcon } from "lucide-react";
 import { useState } from "react";
 import TaskCard from "./TaskCard";
 import AddNewTask from "./AddNewTask";
+import CreateNewColumn from "./CreateNewColumn";
 
 const Column = () => {
     
@@ -45,6 +46,8 @@ const Column = () => {
                     
                 </div>
             ))}
+
+            <CreateNewColumn />
         </div>
     </>
 }
